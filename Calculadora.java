@@ -1,7 +1,7 @@
 public class Calculadora {
 
     public int sum(int a, int b){
-        return a+b;
+        return Math.addExact(a, b);
     }
 
     public int mult(int a, int b){
