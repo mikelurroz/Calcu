@@ -1,8 +1,7 @@
 public class Calculadora {
 
     public int sum(int a, int b){
-        System.out.println("Realizando suma");
-        return a+b;
+        return Math.addExact(a, b);
     }
 
     public int mult(int a, int b){
